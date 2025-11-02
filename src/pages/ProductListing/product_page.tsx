@@ -3,6 +3,7 @@ import { FaStar } from "react-icons/fa";
 import { Button } from "@heroui/button";
 import CustomerReviews from "./customer_review";
 import RecommendedProducts from "./recommended_products";
+import { Link } from "react-router-dom";
 
 export default function ProductPage() {
   // Product variants (with image, name, price, and description)
@@ -63,7 +64,7 @@ export default function ProductPage() {
   const sizes = ["S", "M", "L", "XL"];
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900 px-8 py-12 max-w-6xl mx-auto">
+    <div className="min-h-screen bg-white dark:bg-gray-900 px-8 py-12 max-w-7xl mx-auto">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
         {/* LEFT: Image Gallery */}
         <div>
@@ -200,6 +201,7 @@ export default function ProductPage() {
               <Button
                 color="primary"
                 className="flex-1 py-3 px-6 bg-black dark:bg-white text-white dark:text-black rounded-lg text-base font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors"
+                as={Link} to={"/cartpage"}
               >
                 Add to Cart
               </Button>

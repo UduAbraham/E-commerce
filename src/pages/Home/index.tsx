@@ -3,7 +3,6 @@
 import { Button } from "@heroui/button";
 import ProductGrid from "../product";
 import FeaturesSection from "../FeaturedSection";
-import Footer from "../Footer";
 
 export default function HomePage() {
   return (
@@ -28,7 +27,6 @@ export default function HomePage() {
     </section>
       <ProductGrid/>
       <FeaturesSection/>
-      <Footer/>
     </>
   );
 }

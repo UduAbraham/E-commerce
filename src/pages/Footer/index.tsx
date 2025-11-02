@@ -3,6 +3,7 @@
 import { FC } from "react";
 
 const Footer: FC = () => {
+  
   const sections = [
     {
       title: "Shop",
