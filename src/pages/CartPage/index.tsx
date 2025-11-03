@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Button, Input } from "@heroui/react";
 import {  FaTrashAlt } from "react-icons/fa";
 import { IoMdAdd, IoMdRemove } from "react-icons/io";
+import { useNavigate } from "react-router-dom";
 
 interface CartItem {
   id: number;
@@ -16,6 +17,8 @@ interface CartItem {
 }
 
 export default function CartPage() {
+
+  const navigate = useNavigate();
   const [cartItems, setCartItems] = useState<CartItem[]>([
     {
       id: 1,
@@ -176,6 +179,7 @@ export default function CartPage() {
           <Button
             color="primary"
             className="w-full mt-6 py-3 text-white font-bold rounded-lg"
+            onPress={()=>  navigate("/checkoutpage")}
           >
             Secure Checkout
           </Button>
