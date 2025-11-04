@@ -3,6 +3,7 @@
 import { Button } from "@heroui/button";
 import ProductGrid from "../product";
 import FeaturesSection from "../FeaturedSection";
+import { Link } from "react-router-dom";
 
 export default function HomePage() {
   return (
@@ -20,7 +21,7 @@ export default function HomePage() {
       <p className="text-slate-200 max-w-2xl text-base sm:text-lg">
         Explore curated styles and premium quality essentials designed for the modern wardrobe.
       </p>
-      <Button color="primary" className="font-bold px-6 py-3 rounded-lg hover:scale-105 transition">
+      <Button color="primary" className="font-bold px-6 py-3 rounded-lg hover:scale-105 transition" as={Link} to={"/checkoutpage"}>
         Shop Now
       </Button>
 
