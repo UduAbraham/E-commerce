@@ -22,7 +22,7 @@ export default function HomePage() {
         Explore curated styles and premium quality essentials designed for the modern wardrobe.
       </p>
       <Button color="primary" className="font-bold px-6 py-3 rounded-lg hover:scale-105 transition" as={Link} to={"/checkoutpage"}>
-        Shop Now
+        Shop now
       </Button>
 
     </section>
