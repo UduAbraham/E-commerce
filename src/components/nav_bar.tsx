@@ -21,7 +21,7 @@ export default function Navbar() {
         </Link>
 
         <nav className="hidden md:flex gap-8 text-sm font-medium">
-          <Link className="hover:text-primary transition-colors" to="#">Shop</Link>
+          <Link className="hover:text-primary transition-colors" to={"/checkoutpage"}>Shop</Link>
           <Link className="hover:text-primary transition-colors" to="#">New Arrivals</Link>
           <Link className="hover:text-primary transition-colors" to="/productpage">Collections</Link>
         </nav>
