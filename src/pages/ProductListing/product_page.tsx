@@ -26,6 +26,14 @@ export default function ProductPage() {
     },
     {
       id: 3,
+      name: "The Desert Runner",
+      price: 179.0,
+      description:
+        "Lightweight, durable, and breathable—perfect for everyday adventures in urban or desert terrain.",
+      src: "https://lh3.googleusercontent.com/aida-public/AB6AXuAb22t4khvl7ze06f4QADeI1uW84_oGIxM0d7JAcwi8aGP9BTGB9k7XmZMK2kAKr9oXjNAftyW3cr8kWbynJbeEz0pVnoH6Z24Guh08IuwU1IuPIQ7G9JRBCzvShRF-Wl9AIXdSLQK-SQHPRF7YgZoHRjIeHa0y-2CSg2zWxe6MCE1WPENWfqB3ojT0XrGBwyKYKikkWR2_oKFV45lvPtebkyvJQQVNATFy4XlFgi4UQJI3PLqB_s4rzuM3MhLgdephEk0YP0aBLgx2",
+    },
+    {
+      id:4,
       name: "The Alpine Shell",
       price: 289.0,
       description:
@@ -33,7 +41,7 @@ export default function ProductPage() {
       src: "https://lh3.googleusercontent.com/aida-public/AB6AXuDukZTrOuQ4QZNrsrTqKUO2evOUB9wJacCNcR2wkXYm2lKFFriNP_OyrupdCcg-UIikOYys10ZOPN53xTGo5v_tKAEgN3M_3myZiMvCvlzJJcs9-soAllh0jsk_Rgk1DecvQWix3FzXOYKhRGx6eefeqY7qBTOKsJOcjUHzum_ZLvTmrQ8Ud96G5C6-c-6RFzdlo3M2c62HcrkFjGsUWedvoYyGyhmmDA2ebEc4R69x0eV0AP8F3x-ZRwz75TRK1JNs3TeSCq_20jr5",
     },
     {
-      id: 4,
+      id: 5,
       name: "The Urban Trekker",
       price: 199.0,
       description:
@@ -41,7 +49,7 @@ export default function ProductPage() {
       src: "https://lh3.googleusercontent.com/aida-public/AB6AXuC9qSOF6iJlqDXw9lS6BnXzCyhYexCsJIWKGA7RomsjWTikJwtxGAYbn9lgaNUFni-kYTzfIAQWMfghkbQlCnvn0dWEftl5fv_0P_O0fpts2BKE_EV_DClkooHl-NbrezCNaRjAYbw4VSM1pzs5-jP_Vi3JiVAiDIMoqxq5zu4UNu8BWrvZ9b9a096IT67VeNKsru6yPJ1VefEx6js70s8Dq_H_xtmsVDeRnWn4Cuun-JjDQ9Rzn7_Zd2c7VSrZoMXNFQTvETWtSgFJ",
     },
     {
-      id: 5,
+      id: 6,
       name: "The Khaki Explorer",
       price: 259.0,
       description:
