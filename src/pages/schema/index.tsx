@@ -46,6 +46,14 @@ export default function LoginPage() {
         <div className="text-2xl">Enter Your details below</div>
       </div>
       <form className="space-y-4 w-full" >
+
+        <label for="birthdaytime">Birthday (date and time):</label>
+<input type="datetime-local" id="birthdaytime" name="birthdaytime"></input>
+
+<label for="myfile">Select a file:</label>
+<input type="file" id="myfile" name="myfile"></input>
+
+
         <div>
           <Input
             // {...register("username")}
