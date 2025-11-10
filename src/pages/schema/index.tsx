@@ -9,12 +9,14 @@ import { Input } from "@heroui/input";
 
 // import { LoginSchema } from "./auth.schema";
 // import { LoginPayLoad } from "./auth.type";
-// import { useState } from "react";
+import { useState } from "react";
 // import { useMutation } from "@tanstack/react-query";
 // import { LoginApi } from "../Api/auth.api";
 // import { useNavigate } from "react-router-dom";
 
 export default function LoginPage() {
+
+      const [value, setValue] = useState(4);
 //   const {
 //     register,
 //     handleSubmit,
@@ -52,7 +54,19 @@ export default function LoginPage() {
 
 <label for="myfile">Select a file:</label>
 <input type="file" id="myfile" name="myfile"></input>
+  <div>
 
+      <input
+        type="range"
+        id="vol"
+        name="vol"
+        min="0"
+        max="100"
+        value={value}
+        onChange={(e) => setValue(e.target.value)}
+      />
+      <output>{value}</output>
+    </div>
 
         <div>
           <Input
