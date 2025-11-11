@@ -49,14 +49,14 @@ export default function LoginPage() {
       </div>
       <form className="space-y-4 w-full" >
 
-        <label for="birthdaytime">Birthday (date and time):</label>
+        {/* <label for="birthdaytime">Birthday (date and time):</label>
 <input type="datetime-local" id="birthdaytime" name="birthdaytime"></input>
 
 <label for="myfile">Select a file:</label>
 <input type="file" id="myfile" name="myfile"></input>
-  <div>
+  <div> */}
 
-      <input
+      {/* <input
         type="range"
         id="vol"
         name="vol"
@@ -66,7 +66,7 @@ export default function LoginPage() {
         onChange={(e) => setValue(e.target.value)}
       />
       <output>{value}</output>
-    </div>
+    </div> */}
 
         <div>
           <Input
