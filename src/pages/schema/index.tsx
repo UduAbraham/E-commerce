@@ -1,14 +1,14 @@
 
 
-// import { useForm, SubmitHandler } from "react-hook-form";
+import { useForm, SubmitHandler } from "react-hook-form";
 import { Button } from "@heroui/button";
 import { Input } from "@heroui/input";
 // // import { Link } from "react-router-dom";
-// import { yupResolver } from "@hookform/resolvers/yup";
+import { yupResolver } from "@hookform/resolvers/yup";
 // import { FaRegEye, FaRegEyeSlash } from "react-icons/fa6";
 
-// import { LoginSchema } from "./auth.schema";
-// import { LoginPayLoad } from "./auth.type";
+import { LoginSchema } from "./auth.schema";
+import { LoginPayLoad } from "./auth.type";
 import { useState } from "react";
 // import { useMutation } from "@tanstack/react-query";
 // import { LoginApi } from "../Api/auth.api";
@@ -17,11 +17,11 @@ import { useState } from "react";
 export default function LoginPage() {
 
       const [value, setValue] = useState(4);
-//   const {
-//     register,
-//     handleSubmit,
-//     formState: { errors },
-//   } = useForm<LoginPayLoad>({ resolver: yupResolver(LoginSchema) });
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<LoginPayLoad>({ resolver: yupResolver(LoginSchema) });
 
 //   const onSubmit: SubmitHandler<LoginPayLoad> = (data) => {
 //     mutate(data);
