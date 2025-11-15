@@ -7,12 +7,12 @@ import { Input } from "@heroui/input";
 import { yupResolver } from "@hookform/resolvers/yup";
 // import { FaRegEye, FaRegEyeSlash } from "react-icons/fa6";
 
-import { LoginSchema } from "./auth.schema";
+import { LoginSchema } from "./auth.sechema";
 import { LoginPayLoad } from "./auth.type";
 import { useState } from "react";
 // import { useMutation } from "@tanstack/react-query";
 // import { LoginApi } from "../Api/auth.api";
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function LoginPage() {
 
@@ -27,7 +27,7 @@ export default function LoginPage() {
 //     mutate(data);
 //   };
 
-//   const navigate = useNavigate();
+  const navigate = useNavigate();
 
 //   const [isVisible, setVisible] = useState<boolean>(false);
 //   const toggleVisibility = () => setVisible(!isVisible);
