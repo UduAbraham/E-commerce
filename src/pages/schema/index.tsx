@@ -23,9 +23,9 @@ export default function LoginPage() {
     formState: { errors },
   } = useForm<LoginPayLoad>({ resolver: yupResolver(LoginSchema) });
 
-//   const onSubmit: SubmitHandler<LoginPayLoad> = (data) => {
-//     mutate(data);
-//   };
+  const onSubmit: SubmitHandler<LoginPayLoad> = (data) => {
+    mutate(data);
+  };
 
   const navigate = useNavigate();
 
