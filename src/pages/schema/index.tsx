@@ -29,8 +29,8 @@ export default function LoginPage() {
 
   const navigate = useNavigate();
 
-//   const [isVisible, setVisible] = useState<boolean>(false);
-//   const toggleVisibility = () => setVisible(!isVisible);
+  const [isVisible, setVisible] = useState<boolean>(false);
+  const toggleVisibility = () => setVisible(!isVisible);
 
   
 //   const { mutate, isPending } = useMutation ({
