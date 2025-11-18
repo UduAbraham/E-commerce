@@ -33,14 +33,14 @@ export default function LoginPage() {
   const toggleVisibility = () => setVisible(!isVisible);
 
   
-//   const { mutate, isPending } = useMutation ({
-//     mutationFn: LoginApi ,
-//     onSuccess: (data) => {
-//       console.log(data?.data);
-//       navigate("homepage");
-//     },
-//     onError: (error) => console.log(error),
-//   });
+  const { mutate, isPending } = useMutation ({
+    mutationFn: LoginApi ,
+    onSuccess: (data) => {
+      console.log(data?.data);
+      navigate("homepage");
+    },
+    onError: (error) => console.log(error),
+  });
   return (
     <div className="space-y-4 w-full">
       <div className="space-y-7 text-center">
