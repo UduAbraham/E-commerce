@@ -41,6 +41,7 @@ export default function LoginPage() {
     },
     onError: (error) => console.log(error),
   });
+  
   return (
     <div className="space-y-4 w-full">
       <div className="space-y-7 text-center">
