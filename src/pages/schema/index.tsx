@@ -77,9 +77,9 @@ export default function LoginPage() {
             radius="lg"
             type="username"
           />
-          {/* {errors.username && (
+           {errors.username && (
             <p className="text-red-500 text-sm pt-1">{errors.username.message}</p>
-          )} */}
+          )} 
         </div>
         <div>
           <Input
