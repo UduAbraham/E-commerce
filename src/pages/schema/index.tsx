@@ -90,9 +90,9 @@ export default function LoginPage() {
                 aria-label="toggle password visibility"
                 className="focus:outline-solid outline-transparent"
                 type="button"
-                // onClick={toggleVisibility}
-              >
-                {/* {isVisible ? (
+               onClick={toggleVisibility}
+               >
+                {isVisible ? (
                   <FaRegEye className="text-xl pointer-event-nones text-default-400" />
                 ) : (
                   <FaRegEyeSlash className="text-xl pointer-event-nones text-default-400" />
