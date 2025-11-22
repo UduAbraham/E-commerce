@@ -96,18 +96,18 @@ export default function LoginPage() {
                   <FaRegEye className="text-xl pointer-event-nones text-default-400" />
                 ) : (
                   <FaRegEyeSlash className="text-xl pointer-event-nones text-default-400" />
-                )} */}
+                )} 
               </button>
             }
             placeholder="Enter Password"
             radius="lg"
-            // type={isVisible ? "text" :  "password"}
+             type={isVisible ? "text" :  "password"}
           />
-          {/* {errors.password && (
+           {errors.password && (
             <p className="text-red-500 text-sm pt-1">
               {errors.password.message}
             </p>
-          )} */}
+          )} 
         </div>
         <Button
           type="submit"
