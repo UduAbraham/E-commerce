@@ -71,7 +71,7 @@ export default function LoginPage() {
 
         <div>
           <Input
-            // {...register("username")}
+             {...register("username")}
             fullWidth
             placeholder="Enter Your Username"
             radius="lg"
@@ -83,7 +83,7 @@ export default function LoginPage() {
         </div>
         <div>
           <Input
-            // {...register("password")}
+            {...register("password")}
             fullWidth
             endContent={
               <button
