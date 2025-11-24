@@ -114,9 +114,9 @@ export default function LoginPage() {
           fullWidth
           className="text-white bg-red-600 py-6"
           size="lg"
-        //   isLoading={isPending}
+          isLoading={isPending}
         >
-        {/* {isPending ? "Loging in" : "Login"} */}
+         {isPending ? "Loging in" : "Login"} 
         </Button>
       </form>
     </div>
