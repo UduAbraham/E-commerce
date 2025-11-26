@@ -5,13 +5,13 @@ import { Button } from "@heroui/button";
 import { Input } from "@heroui/input";
 // // import { Link } from "react-router-dom";
 import { yupResolver } from "@hookform/resolvers/yup";
-// import { FaRegEye, FaRegEyeSlash } from "react-icons/fa6";
+import { FaRegEye, FaRegEyeSlash } from "react-icons/fa6";
 
 import { LoginSchema } from "./auth.sechema";
 import { LoginPayLoad } from "./auth.type";
 import { useState } from "react";
 import { useMutation } from "@tanstack/react-query";
-// import { LoginApi } from "../schema/auth.type";
+import { LoginApi } from "../schema/auth.type";
 import { useNavigate } from "react-router-dom";
 
 export default function LoginPage() {
@@ -49,13 +49,13 @@ export default function LoginPage() {
         <div className="text-2xl">Enter Your details below</div>
       </div>
       <form className="space-y-4 w-full" >
-
+{/* 
         <label for="birthdaytime">Birthday (date and time):</label>
 <input type="datetime-local" id="birthdaytime" name="birthdaytime"></input>
 
 <label for="myfile">Select a file:</label>
-<input type="file" id="myfile" name="myfile"></input>
-  <div> 
+<input type="file" id="myfile" name="myfile"></input> */}
+  {/* <div> 
 
        <input
         type="range"
@@ -67,7 +67,7 @@ export default function LoginPage() {
         onChange={(e) => setValue(e.target.value)}
       />
       <output>{value}</output>
-    </div>
+    </div> */}
 
         <div>
           <Input
