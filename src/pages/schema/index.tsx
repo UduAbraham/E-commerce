@@ -54,7 +54,7 @@ export default function LoginPage() {
 
 <label for="myfile">Select a file:</label>
 <input type="file" id="myfile" name="myfile"></input> */}
-  {/* <div> 
+  <div> 
 
        <input
         type="range"
@@ -66,7 +66,7 @@ export default function LoginPage() {
         onChange={(e) => setValue(e.target.value)}
       />
       <output>{value}</output>
-    </div> */}
+    </div>
 
         <div>
           <Input

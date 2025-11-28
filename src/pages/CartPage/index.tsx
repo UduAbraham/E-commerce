@@ -95,18 +95,18 @@ export default function CartPage() {
                     className="w-24 h-24 object-cover rounded-lg"
                   />
                   <div>
-                    <p className="font-semibold">{item.name}</p>
+                    <p className="font-semibold tracking-wide">{item.name}</p>
                     <p className="text-sm text-slate-500">
                       Color: {item.color}, Size: {item.size}
                     </p>
-                    <p className="text-base font-medium sm:hidden mt-1">
+                    <p className="text-base font-medium sm:hidden mt-1 py-1">
                       ${item.price.toFixed(2)}
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-center gap-6 ml-auto">
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-3">
                     <button
                       onClick={() => handleQuantityChange(item.id, -1)}
                       className="bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 p-2 rounded-full"
