@@ -3,7 +3,7 @@
 import { useForm, SubmitHandler } from "react-hook-form";
 import { Button } from "@heroui/button";
 import { Input } from "@heroui/input";
-// // import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { FaRegEye, FaRegEyeSlash } from "react-icons/fa6";
 
@@ -48,13 +48,13 @@ export default function LoginPage() {
         <div className="text-2xl">Enter Your details below</div>
       </div>
       <form className="space-y-4 w-full" >
-{/* 
+
         <label for="birthdaytime">Birthday (date and time):</label>
 <input type="datetime-local" id="birthdaytime" name="birthdaytime"></input>
 
 <label for="myfile">Select a file:</label>
-<input type="file" id="myfile" name="myfile"></input> */}
-  <div> 
+<input type="file" id="myfile" name="myfile"></input> 
+  <div>  
 
        <input
         type="range"
