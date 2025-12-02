@@ -15,7 +15,7 @@ const Footer: FC = () => {
     },
     {
       title: "Support",
-      links: ["Contact", "FAQ", "Shipping & Returns"],
+      links: ["Contact", "FAQ", "Shipping & Returens"],
     },
   ];
 
@@ -23,6 +23,7 @@ const Footer: FC = () => {
     <footer className="bg-slate-100 dark:bg-slate-900 transition-colors duration-300">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         {/* Grid Layout */}
+
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
           {/* Brand Section */}
           <div className="col-span-2 md:col-span-1">
@@ -41,7 +42,7 @@ const Footer: FC = () => {
               </h2>
             </div>
             <p className="mt-4 text-sm text-slate-600 dark:text-slate-400">
-              Timeless fashion for the modern wardrobe.
+              Timeless fashion for every  modern wardrobe.
             </p>
           </div>
 
