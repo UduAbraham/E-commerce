@@ -15,7 +15,7 @@ const Footer: FC = () => {
     },
     {
       title: "Support",
-      links: ["Contact", "FAQ", "Shipping & Returens"],
+      links: ["Contacts", "FAQ", "Shipping & Returens"],
     },
   ];
 
@@ -59,7 +59,7 @@ const Footer: FC = () => {
                       href="#"
                       className="text-sm text-slate-600 hover:text-primary dark:text-slate-400 dark:hover:text-primary transition-colors duration-200"
                     >
-                      {link}
+                    {link}
                     </a>
                   </li>
                 ))}
