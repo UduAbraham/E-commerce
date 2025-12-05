@@ -15,7 +15,7 @@ const Footer: FC = () => {
     },
     {
       title: "Support",
-      links: ["Contacts", "FAQ", "Shipping & Returens"],
+      links: ["Contacts'", "FAQ", "Shipping & Returens"],
     },
   ];
 
