@@ -25,7 +25,7 @@ export default function CartPage() {
       name: "Premium Crewneck Sweatshirt",
       color: "Onyx",
       size: "L",
-      price: 68,
+      price: 56,
       quantity: 1,
       image:
         "https://lh3.googleusercontent.com/aida-public/AB6AXuAw7bpGinIsogr1ibtcCkQw5MvGqZwykoe5FG15sKN4tQueCHRRezSrMlifnexFodcWojDci3KZS7hYdMEGNltfOvjigP50c3be69v6WiGsIpFJdG5xXE3kTDz0KBczSa5cfILNNVByVhkJri_OuF8lffZznl3uf6yAjSAanr0Sduj7J-neF3lgOYRdzTkSG55DMEZ4Fp1KD2EXjSxIa072dmsMkr8yglERA5H7dQugoXjbI6Jy8Yi5nBoCwjytTT1Ejyy0qR8VpEfB",
@@ -35,7 +35,7 @@ export default function CartPage() {
       name: "Performance Jogger",
       color: "Heather Grey",
       size: "M",
-      price: 84,
+      price: 67,
       quantity: 1,
       image:
         "https://lh3.googleusercontent.com/aida-public/AB6AXuANxiu_V0zLzaXg-YZfzHxfehWN1oxZ6P51sQJS8lhPOFQm-DuTZ0EG0Mpxmy54TiJPbkdIQhJcn5_UdYKhMfZFFh8IuVKEnQxD8eOK3eVDDv6VQ4LndPY062ZrejRRMfMVOsmB-VNHqpy6cQx-GWGuaDwNocfuNwcp8ZPOM-KOz3ShgaqUe89OKYjx86o0OGiwMys-AJGZRdn8_drB2PWi9UBT-tBNv4lCCGOAMSblWZv8",
@@ -61,7 +61,7 @@ export default function CartPage() {
     0
   );
 
-  const shipping = 5.0;
+  const shipping = 10.5;
   const total = subtotal + shipping;
 
   return (
