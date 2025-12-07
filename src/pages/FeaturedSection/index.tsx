@@ -11,13 +11,13 @@ export default function FeaturesSection() {
     },
     {
       icon: <LuPackageCheck className="text-4xl text-primary mb-4" />,
-      title: "Built to Last",
+      title: "Built to Last and serve",
       description:
         "Our garments are crafted with high-quality materials to ensure longevity and timeless style.",
     },
     {
       icon: <LuTruck className="text-4xl text-primary mb-4" />,
-      title: "Free Returns",
+      title: "Free Returns Always",
       description:
         "Enjoy complimentary returns on all orders to ensure the perfect fit and satisfaction.",
     },
@@ -33,7 +33,7 @@ export default function FeaturesSection() {
               className="flex flex-col items-center hover:scale-105 transition-transform duration-300"
             >
               {feature.icon}
-              <h3 className="text-lg font-bold text-slate-900 dark:text-white">
+              <h3 className="text-lg font-bold text-slate-900 dark:text-white tracking-wide">
                 {feature.title}
               </h3>
               <p className="mt-2 text-sm text-slate-600 dark:text-slate-400 max-w-xs">
