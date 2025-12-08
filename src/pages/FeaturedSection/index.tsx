@@ -5,7 +5,7 @@ export default function FeaturesSection() {
   const features = [
     {
       icon: <LuLeaf className="text-4xl text-primary mb-4" />,
-      title: "Ethically Sourced",
+      title: "Ethically Sourced For You",
       description:
         "We partner with suppliers who share our commitment to sustainability and fair labor.",
     },

@@ -17,21 +17,21 @@ const products: Product[] = [
   {
     id: 1,
     name: "Organic Cotton Tee",
-    price: "$45.00",
+    price: "$47.00",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuCh4wuHmDGgMwY68XEUOtTDqNVlO77glzDA6it3sf2EDi8cG4Iy7S1phAVhAgyWQxCJWUq4evWKZgBBrvlzh9Eyfkxjcmq-1T_hyRwr7JGX_c51iiQWckzDcXbb9wbovR-RppW5kwX2AJU9SUlUFugVRdrnzQTXmU51mEfFDWDB798pxX3FKOjaLvcdMg6h9WWwGdt7dUQOG-Crq7OII8izUppADQ2PnAsLedk4hyknwOBKr8cDc4FnQB06VVodaZFSsSXEBF3BaJ3P",
   },
   {
     id: 2,
     name: "Performance Chinos",
-    price: "$90.00",
+    price: "$100.00",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuBGUDOo6OHylpoGgMrJejdQ02xMN_3UqSbO7vX4ihVrMd4NVbZ4QlKd0cGa1eRwCORTc5xmL0gyyNxSJvyHc2zdRRuRcqQwwYsHrpW4NYJhy7rrz8jrs-8tctntOuiW_SCcbjIQAofg5JKAj0Sq4cMFempoJ4_xhR2KrFdO-IzHexTuxvMI7XM_rquYQNyxeFl0Fr9zc4PKguH2W-pN4MxQkpVGOIlWB08xj-_Q82hiSd4kIPgt0Fzq4w0kwaNwEmz4kMNn6V6XKNZ-",
   },
   {
     id: 3,
     name: "Italian Leather Loafers",
-    price: "$250.00",
+    price: "$350.00",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuC9qSOF6iJlqDXw9lS6BnXzCyhYexCsJIWKGA7RomsjWTikJwtxGAYbn9lgaNUFni-kYTzfIAQWMfghkbQlCnvn0dWEftl5fv_0P_O0fpts2BKE_EV_DClkooHl-NbrezCNaRjAYbw4VSM1pzs5-jP_Vi3JiVAiDIMoqxq5zu4UNu8BWrvZ9b9a096IT67VeNKsru6yPJ1VefEx6js70s8Dq_H_xtmsVDeRnWn4Cuun-JjDQ9Rzn7_Zd2c7VSrZoMXNFQTvETWtSgFJ",
   },
