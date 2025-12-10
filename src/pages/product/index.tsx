@@ -45,7 +45,7 @@ const products: Product[] = [
   {
     id: 5,
     name: "Linen Blend Shirt",
-    price: "$75.00",
+    price: "$750.00",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuBP0ilmmv8ubO-iCI4ZFXGMOzE7iPCNNIYAcVQ-EcDscgn2ByPga9L21FWNOlxc0l2F6lE1Xqzj-hfeSLAgvUwdgzU88Dr446-o7vaH7WgXmCQ3r0zCX8lglVdGJNsyAEKk_FuKsIh69S6hBxkS-T_JR5z7Ou0U2IQdTFv2qZnC9Vs59B5q72Z-YRlWPj-F6TgPeTWTzmbgk0ajc2o27PUbmzm0w52skhkfezm21tXUMbONS_mzdn7LmnhoeYNkcwcu0O1C3WYvX-vN",
   },
@@ -59,7 +59,7 @@ const products: Product[] = [
   {
     id: 7,
     name: "Recycled Crossbody Bag",
-    price: "$65.00",
+    price: "$650.00",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuBwGRFz1X4uyx22JcH_V6PW-PQ3tZz_Zli1hAF09m5vMEGo0lBmRk7pc8TcBIms5bQ7YVlSvW2J02VwLilolKkB576hJhqVorcXwUyPCU8Ba71z0Fr13sdQXU_nGHW6qZRp_x3gnD8Y7sniQCC8D_QtQE9wsUr51C-9uk2ETBPsIKcLSIiTDuZ8_DRnKS89YR_iqoNlzNdy8mFGnEVzMiTzL6ot_E7G2cDqxzWye4Q0UhPH99-PM2C08O6Fd0AQjE5rzD1eM_nurEZk",
   },
