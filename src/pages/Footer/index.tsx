@@ -22,10 +22,9 @@ const Footer: FC = () => {
   return (
     <footer className="bg-slate-100 dark:bg-slate-900 transition-colors duration-300">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-        {/* Grid Layout */}
 
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
-          {/* Brand Section */}
+
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2">
               <div className="w-6 text-slate-900 dark:text-white">
@@ -46,7 +45,6 @@ const Footer: FC = () => {
             </p>
           </div>
 
-          {/* Dynamic Sections */}
           {sections.map((section, idx) => (
             <div key={idx}>
               <h3 className="text-sm font-bold uppercase tracking-wider text-slate-900 dark:text-white">
