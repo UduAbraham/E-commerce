@@ -6,7 +6,7 @@ const Footer: FC = () => {
   
   const sections = [
     {
-      title: "Shop",
+      title: "Shopings",
       links: ["New Arrivals", "Best Sellers", "Collections"],
     },
     {
@@ -41,7 +41,7 @@ const Footer: FC = () => {
               </h2>
             </div>
             <p className="mt-4 text-sm text-slate-600 dark:text-slate-400">
-              Timeless fashion for every  modern wardrobe.
+              Timeless fashion for every  modern wardrobes.
             </p>
           </div>
 
