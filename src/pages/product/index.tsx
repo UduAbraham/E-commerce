@@ -38,7 +38,7 @@ const products: Product[] = [
   {
     id: 4,
     name: "Minimalist Watch",
-    price: "$180.00",
+    price: "$180",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuDukZTrOuQ4QZNrsrTqKUO2evOUB9wJacCNcR2wkXYm2lKFFriNP_OyrupdCcg-UIikOYys10ZOPN53xTGo5v_tKAEgN3M_3myZiMvCvlzJJcs9-soAllh0jsk_Rgk1DecvQWix3FzXOYKhRGx6eefeqY7qBTOKsJOcjUHzum_ZLvTmrQ8Ud96G5C6-c-6RFzdlo3M2c62HcrkFjGsUWedvoYyGyhmmDA2ebEc4R69x0eV0AP8F3x-ZRwz75TRK1JNs3TeSCq_20jr5",
   },
@@ -66,7 +66,7 @@ const products: Product[] = [
   {
     id: 8,
     name: "Classic Denim Jeans",
-    price: "$110.00",
+    price: "$910.00",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuCThcpLQYyxxIzWWfFqDs6xbhC2KjYgDk_YSIW5HFAbAaZi5kNUp3IbQBb6OYRyVJYY-jl3zxb3mvOiMuvyzbOTOQtAhiqg2M8yPKAEoE_m2ywEsYBz3iv27swyloC3Dft-Ihno-hEjTrLJhed-WYUA-ano5vPi_ozW34OdRFO-loauFio_A8BmTLzoh-xT9AnZWxjwmV11nJd25EBKju66_Zft3HInvJEue0XPPJXxU5c-xQonrmPG9Jt-7UimW11a6KMG_VoSK9At",
   },
