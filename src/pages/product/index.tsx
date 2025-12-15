@@ -10,7 +10,7 @@ const products: Product[] = [
   {
     id: 1,
     name: "Organic Cotton Tee",
-    price: "$450.00",
+    price: "$400.00",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuAb22t4khvl7ze06f4QADeI1uW84_oGIxM0d7JAcwi8aGP9BTGB9k7XmZMK2kAKr9oXjNAftyW3cr8kWbynJbeEz0pVnoH6Z24Guh08IuwU1IuPIQ7G9JRBCzvShRF-Wl9AIXdSLQK-SQHPRF7YgZoHRjIeHa0y-2CSg2zWxe6MCE1WPENWfqB3ojT0XrGBwyKYKikkWR2_oKFV45lvPtebkyvJQQVNATFy4XlFgi4UQJI3PLqB_s4rzuM3MhLgdephEk0YP0aBLgx2",
   },
@@ -31,7 +31,7 @@ const products: Product[] = [
   {
     id: 3,
     name: "Italian Leather Loafers",
-    price: "$4890.00",
+    price: "$480.00",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuC9qSOF6iJlqDXw9lS6BnXzCyhYexCsJIWKGA7RomsjWTikJwtxGAYbn9lgaNUFni-kYTzfIAQWMfghkbQlCnvn0dWEftl5fv_0P_O0fpts2BKE_EV_DClkooHl-NbrezCNaRjAYbw4VSM1pzs5-jP_Vi3JiVAiDIMoqxq5zu4UNu8BWrvZ9b9a096IT67VeNKsru6yPJ1VefEx6js70s8Dq_H_xtmsVDeRnWn4Cuun-JjDQ9Rzn7_Zd2c7VSrZoMXNFQTvETWtSgFJ",
   },
