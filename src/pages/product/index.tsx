@@ -10,21 +10,21 @@ const products: Product[] = [
   {
     id: 1,
     name: "Organic Cotton Tee",
-    price: "$400.00",
+    price: "$450.00",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuAb22t4khvl7ze06f4QADeI1uW84_oGIxM0d7JAcwi8aGP9BTGB9k7XmZMK2kAKr9oXjNAftyW3cr8kWbynJbeEz0pVnoH6Z24Guh08IuwU1IuPIQ7G9JRBCzvShRF-Wl9AIXdSLQK-SQHPRF7YgZoHRjIeHa0y-2CSg2zWxe6MCE1WPENWfqB3ojT0XrGBwyKYKikkWR2_oKFV45lvPtebkyvJQQVNATFy4XlFgi4UQJI3PLqB_s4rzuM3MhLgdephEk0YP0aBLgx2",
   },
   {
     id: 1,
     name: "Organic Cotton Tee",
-    price: "$237.00",
+    price: "$257.00",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuCh4wuHmDGgMwY68XEUOtTDqNVlO77glzDA6it3sf2EDi8cG4Iy7S1phAVhAgyWQxCJWUq4evWKZgBBrvlzh9Eyfkxjcmq-1T_hyRwr7JGX_c51iiQWckzDcXbb9wbovR-RppW5kwX2AJU9SUlUFugVRdrnzQTXmU51mEfFDWDB798pxX3FKOjaLvcdMg6h9WWwGdt7dUQOG-Crq7OII8izUppADQ2PnAsLedk4hyknwOBKr8cDc4FnQB06VVodaZFSsSXEBF3BaJ3P",
   },
   {
     id: 2,
     name: "Performance Chinos",
-    price: "$200.00",
+    price: "$207.00",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuBGUDOo6OHylpoGgMrJejdQ02xMN_3UqSbO7vX4ihVrMd4NVbZ4QlKd0cGa1eRwCORTc5xmL0gyyNxSJvyHc2zdRRuRcqQwwYsHrpW4NYJhy7rrz8jrs-8tctntOuiW_SCcbjIQAofg5JKAj0Sq4cMFempoJ4_xhR2KrFdO-IzHexTuxvMI7XM_rquYQNyxeFl0Fr9zc4PKguH2W-pN4MxQkpVGOIlWB08xj-_Q82hiSd4kIPgt0Fzq4w0kwaNwEmz4kMNn6V6XKNZ-",
   },
