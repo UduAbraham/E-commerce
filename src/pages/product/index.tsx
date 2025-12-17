@@ -24,13 +24,13 @@ const products: Product[] = [
   {
     id: 2,
     name: "Performance Chinos",
-    price: "$207.00",
+    price: "$200.00",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuBGUDOo6OHylpoGgMrJejdQ02xMN_3UqSbO7vX4ihVrMd4NVbZ4QlKd0cGa1eRwCORTc5xmL0gyyNxSJvyHc2zdRRuRcqQwwYsHrpW4NYJhy7rrz8jrs-8tctntOuiW_SCcbjIQAofg5JKAj0Sq4cMFempoJ4_xhR2KrFdO-IzHexTuxvMI7XM_rquYQNyxeFl0Fr9zc4PKguH2W-pN4MxQkpVGOIlWB08xj-_Q82hiSd4kIPgt0Fzq4w0kwaNwEmz4kMNn6V6XKNZ-",
   },
   {
     id: 3,
-    name: "Italian Leather Loafers",
+    name: "Italians Leather Loafers",
     price: "$480.00",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuC9qSOF6iJlqDXw9lS6BnXzCyhYexCsJIWKGA7RomsjWTikJwtxGAYbn9lgaNUFni-kYTzfIAQWMfghkbQlCnvn0dWEftl5fv_0P_O0fpts2BKE_EV_DClkooHl-NbrezCNaRjAYbw4VSM1pzs5-jP_Vi3JiVAiDIMoqxq5zu4UNu8BWrvZ9b9a096IT67VeNKsru6yPJ1VefEx6js70s8Dq_H_xtmsVDeRnWn4Cuun-JjDQ9Rzn7_Zd2c7VSrZoMXNFQTvETWtSgFJ",
