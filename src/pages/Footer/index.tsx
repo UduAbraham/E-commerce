@@ -6,12 +6,12 @@ const Footer: FC = () => {
   
   const sections = [
     {
-      title: "Shopings",
-      links: ["New Arrivals", "Best Sellers", "Collections"],
+      title: "Shoping",
+      links: ["New Arrival", "Best Sellers", "Collections"],
     },
     {
       title: "About",
-      links: ["Our Story", "Sustainability", "Careers"],
+      links: ["Our Story", "Sustainability", "Career"],
     },
     {
       title: "Support",
