@@ -25,7 +25,7 @@ export default function CartPage() {
       name: "Premium Crewneck Sweatshirt",
       color: "Onyx",
       size: "L",
-      price: 56,
+      price: 656,
       quantity: 1,
       image:
         "https://lh3.googleusercontent.com/aida-public/AB6AXuAw7bpGinIsogr1ibtcCkQw5MvGqZwykoe5FG15sKN4tQueCHRRezSrMlifnexFodcWojDci3KZS7hYdMEGNltfOvjigP50c3be69v6WiGsIpFJdG5xXE3kTDz0KBczSa5cfILNNVByVhkJri_OuF8lffZznl3uf6yAjSAanr0Sduj7J-neF3lgOYRdzTkSG55DMEZ4Fp1KD2EXjSxIa072dmsMkr8yglERA5H7dQugoXjbI6Jy8Yi5nBoCwjytTT1Ejyy0qR8VpEfB",
