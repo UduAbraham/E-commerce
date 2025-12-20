@@ -35,7 +35,7 @@ export default function CartPage() {
       name: "Performance Jogger",
       color: "Heather Grey",
       size: "M",
-      price: 67,
+      price: 567,
       quantity: 1,
       image:
         "https://lh3.googleusercontent.com/aida-public/AB6AXuANxiu_V0zLzaXg-YZfzHxfehWN1oxZ6P51sQJS8lhPOFQm-DuTZ0EG0Mpxmy54TiJPbkdIQhJcn5_UdYKhMfZFFh8IuVKEnQxD8eOK3eVDDv6VQ4LndPY062ZrejRRMfMVOsmB-VNHqpy6cQx-GWGuaDwNocfuNwcp8ZPOM-KOz3ShgaqUe89OKYjx86o0OGiwMys-AJGZRdn8_drB2PWi9UBT-tBNv4lCCGOAMSblWZv8",
