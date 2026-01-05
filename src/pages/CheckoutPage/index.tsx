@@ -26,7 +26,7 @@ export default function CheckoutPage() {
     {
       id: 2,
       name: "Flux Runners",
-      qty: 10,
+      qty: 19,
       price: 150,
       image:
         "https://lh3.googleusercontent.com/aida-public/AB6AXuB2oMMXP97sHWNNi7reiB3GKvCDvhPj6T_tuyGfxcU8GFXDW2hyCiZxYpnrZ8-lnkG16DigdKpVx5y_JuSza4izHO3NAiQnxr_eVXGRh3R4DIr8fPxrk9mjFaqynzuAD70ZTb0lr03rvvnO41rCRCLlAWCDhbZpNpnI0fHUwYMYt-7BpVI2815UrMScEpCRLhX_z2ctm4Py2YlFgDTnMXNF7_a7OOxfb_F7YPhXc5FgH1_6hUJURTFUXK3hzKKuFDdOxb2iYvEq-8XB",
@@ -40,7 +40,7 @@ export default function CheckoutPage() {
   ];
 
   const subtotal = cartItems.reduce((sum, item) => sum + item.price, 0);
-  const shipping = 90;
+  const shipping = 50;
   const taxes = 492.14;
   const total = subtotal + shipping + taxes;
 
