@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
-import { Progress } from "@heroui/react";
+import { Progress } from "@heroui/progress";
 
 // ✅ Review type
 interface Review {
@@ -55,7 +55,7 @@ const StarRating: React.FC<StarRatingProps> = ({ value, size = 20 }) => (
         <AiFillStar key={i} size={size} />
       ) : (
         <AiOutlineStar key={i} size={size} />
-      )
+      ),
     )}
   </div>
 );
@@ -63,8 +63,8 @@ const StarRating: React.FC<StarRatingProps> = ({ value, size = 20 }) => (
 const CustomerReviews: React.FC = () => {
   return (
     <section
-      id="reviews"
       className="mt-16 lg:mt-24 border-t border-gray-200 dark:border-gray-800 pt-12"
+      id="reviews"
     >
       <h2 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
         Customer Reviews
@@ -74,7 +74,9 @@ const CustomerReviews: React.FC = () => {
         {/* LEFT: Ratings Summary */}
         <div className="md:w-1/3 space-y-6">
           <div className="flex items-center">
-            <p className="text-4xl font-bold text-gray-900 dark:text-white">4.2</p>
+            <p className="text-4xl font-bold text-gray-900 dark:text-white">
+              4.2
+            </p>
             <div className="ml-4">
               <StarRating value={4} />
               <p className="text-sm text-gray-500 dark:text-gray-400">
@@ -91,10 +93,10 @@ const CustomerReviews: React.FC = () => {
                 </span>
                 <Progress
                   aria-label={`${stars}-star rating`}
-                  size="sm"
-                  color="warning"
-                  value={percent}
                   className="flex-1"
+                  color="warning"
+                  size="sm"
+                  value={percent}
                 />
                 <span className="w-10 text-right text-gray-700 dark:text-gray-300">
                   {percent}%
@@ -116,11 +118,15 @@ const CustomerReviews: React.FC = () => {
                   <h4 className="font-semibold text-gray-900 dark:text-white">
                     {name}
                   </h4>
-                  <p className="text-xs text-gray-500 dark:text-gray-400">{date}</p>
+                  <p className="text-xs text-gray-500 dark:text-gray-400">
+                    {date}
+                  </p>
                 </div>
-                <StarRating value={rating} size={16} />
+                <StarRating size={16} value={rating} />
               </div>
-              <p className="mt-4 text-sm text-gray-700 dark:text-gray-300">{text}</p>
+              <p className="mt-4 text-sm text-gray-700 dark:text-gray-300">
+                {text}
+              </p>
             </div>
           ))}
         </div>

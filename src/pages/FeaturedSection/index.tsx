@@ -1,4 +1,3 @@
-
 import { LuLeaf, LuPackageCheck, LuTruck } from "react-icons/lu";
 
 export default function FeaturesSection() {

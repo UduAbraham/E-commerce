@@ -1,10 +1,6 @@
-
-import { Button } from "@heroui/react";
+import { Button } from "@heroui/button";
 import { Link } from "react-router-dom";
-import {
-  FiCheck,
-  FiHelpCircle,
-} from "react-icons/fi";
+import { FiCheck, FiHelpCircle } from "react-icons/fi";
 
 export default function PaymentSuccessPage() {
   const orderedItems = [
@@ -28,8 +24,6 @@ export default function PaymentSuccessPage() {
 
   return (
     <div className="min-h-screen bg-background-light dark:bg-background-dark text-gray-900 dark:text-gray-200 flex flex-col">
-     
-
       {/* Main Content */}
       <main className="flex flex-col items-center justify-center flex-grow py-10 px-4 text-center">
         {/* Success Icon */}
@@ -69,14 +63,14 @@ export default function PaymentSuccessPage() {
         {/* Buttons */}
         <div className="w-full max-w-md flex flex-col items-center gap-4 mb-10">
           <Button
-            color="primary"
             className="w-full bg-primary text-white font-semibold"
+            color="primary"
           >
             Track Your Order
           </Button>
           <Link
-            to="/"
             className="text-primary text-sm font-medium underline hover:text-blue-600"
+            to="/"
           >
             Continue Shopping
           </Link>
@@ -92,9 +86,9 @@ export default function PaymentSuccessPage() {
                 className="flex-shrink-0 w-24 h-24 bg-gray-100 rounded-lg overflow-hidden"
               >
                 <img
-                  src={item.img}
                   alt="Ordered item"
                   className="object-cover w-full h-full"
+                  src={item.img}
                 />
               </div>
             ))}
@@ -107,8 +101,8 @@ export default function PaymentSuccessPage() {
         <p className="text-sm text-gray-500 dark:text-gray-400 flex items-center justify-center gap-1">
           Need help?{" "}
           <a
-            href="#"
             className="text-primary font-medium underline hover:text-blue-600"
+            href="#"
           >
             Contact our support team
           </a>

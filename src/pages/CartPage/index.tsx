@@ -1,8 +1,7 @@
-
-
 import { useState } from "react";
-import { Button, Input } from "@heroui/react";
-import {  FaTrashAlt } from "react-icons/fa";
+import { Button } from "@heroui/button";
+import { Input } from "@heroui/input";
+import { FaTrashAlt } from "react-icons/fa";
 import { IoMdAdd, IoMdRemove } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
 
@@ -17,7 +16,6 @@ interface CartItem {
 }
 
 export default function CartPage() {
-
   const navigate = useNavigate();
   const [cartItems, setCartItems] = useState<CartItem[]>([
     {
@@ -47,8 +45,8 @@ export default function CartPage() {
       items.map((item) =>
         item.id === id
           ? { ...item, quantity: Math.max(1, item.quantity + delta) }
-          : item
-      )
+          : item,
+      ),
     );
   };
 
@@ -58,7 +56,7 @@ export default function CartPage() {
 
   const subtotal = cartItems.reduce(
     (total, item) => total + item.price * item.quantity,
-    0
+    0,
   );
 
   const shipping = 10.5;
@@ -67,9 +65,7 @@ export default function CartPage() {
   return (
     <div className=" max-w-6xl mx-auto bg-background-light dark:bg-background-dark min-h-screen text-slate-800 dark:text-slate-200">
       {/* HEADER */}
-      <header className="border-b border-slate-200 dark:border-slate-800 sticky top-0 bg-white/70 dark:bg-gray-900/70 backdrop-blur-md z-50">
-      
-      </header>
+      <header className="border-b border-slate-200 dark:border-slate-800 sticky top-0 bg-white/70 dark:bg-gray-900/70 backdrop-blur-md z-50" />
 
       {/* MAIN */}
       <main className="container mx-auto px-4 py-10 grid lg:grid-cols-12 gap-8">
@@ -77,7 +73,7 @@ export default function CartPage() {
         <section className="lg:col-span-8 space-y-6">
           <div className="flex justify-between items-baseline">
             <h2 className="text-4xl font-black">Your Bag</h2>
-            <a href="#" className="text-sm text-slate-500 hover:text-primary">
+            <a className="text-sm text-slate-500 hover:text-primary" href="#">
               Continue Shopping
             </a>
           </div>
@@ -90,9 +86,9 @@ export default function CartPage() {
               >
                 <div className="flex items-center gap-4">
                   <img
-                    src={item.image}
                     alt={item.name}
                     className="w-24 h-24 object-cover rounded-lg"
+                    src={item.image}
                   />
                   <div>
                     <p className="font-semibold tracking-wide">{item.name}</p>
@@ -108,15 +104,15 @@ export default function CartPage() {
                 <div className="flex items-center gap-6 ml-auto">
                   <div className="flex items-center gap-3">
                     <button
-                      onClick={() => handleQuantityChange(item.id, -1)}
                       className="bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 p-2 rounded-full"
+                      onClick={() => handleQuantityChange(item.id, -1)}
                     >
                       <IoMdRemove />
                     </button>
                     <span className="font-medium">{item.quantity}</span>
                     <button
-                      onClick={() => handleQuantityChange(item.id, 1)}
                       className="bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 p-2 rounded-full"
+                      onClick={() => handleQuantityChange(item.id, 1)}
                     >
                       <IoMdAdd />
                     </button>
@@ -127,8 +123,8 @@ export default function CartPage() {
                   </p>
 
                   <button
-                    onClick={() => handleRemove(item.id)}
                     className="text-slate-400 hover:text-red-500"
+                    onClick={() => handleRemove(item.id)}
                   >
                     <FaTrashAlt />
                   </button>
@@ -166,20 +162,20 @@ export default function CartPage() {
 
           <div className="mt-6 flex gap-2">
             <Input
-              type="text"
-              placeholder="Enter promo code"
               className="flex-grow"
+              placeholder="Enter promo code"
               radius="lg"
+              type="text"
             />
-            <Button variant="flat" className="bg-slate-200 dark:bg-slate-800">
+            <Button className="bg-slate-200 dark:bg-slate-800" variant="flat">
               Apply
             </Button>
           </div>
 
           <Button
-            color="primary"
             className="w-full mt-6 py-3 text-white font-bold rounded-lg"
-            onPress={()=>  navigate("/checkoutpage")}
+            color="primary"
+            onPress={() => navigate("/checkoutpage")}
           >
             Secure Checkout
           </Button>
@@ -187,9 +183,9 @@ export default function CartPage() {
           <div className="mt-6 text-center text-sm text-slate-500">
             <p className="mb-2">We accept:</p>
             <div className="flex justify-center gap-3 opacity-70">
-              <img src="/visa.svg" alt="Visa" className="h-6" />
-              <img src="/mastercard.svg" alt="Mastercard" className="h-6" />
-              <img src="/paypal.svg" alt="PayPal" className="h-6" />
+              <img alt="Visa" className="h-6" src="/visa.svg" />
+              <img alt="Mastercard" className="h-6" src="/mastercard.svg" />
+              <img alt="PayPal" className="h-6" src="/paypal.svg" />
             </div>
           </div>
         </aside>

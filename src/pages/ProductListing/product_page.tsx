@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { Button } from "@heroui/button";
+import { Link } from "react-router-dom";
+
 import CustomerReviews from "./customer_review";
 import RecommendedProducts from "./recommended_products";
-import { Link } from "react-router-dom";
 
 export default function ProductPage() {
   // Product variants (with image, name, price, and description)
@@ -33,7 +34,7 @@ export default function ProductPage() {
       src: "https://lh3.googleusercontent.com/aida-public/AB6AXuAb22t4khvl7ze06f4QADeI1uW84_oGIxM0d7JAcwi8aGP9BTGB9k7XmZMK2kAKr9oXjNAftyW3cr8kWbynJbeEz0pVnoH6Z24Guh08IuwU1IuPIQ7G9JRBCzvShRF-Wl9AIXdSLQK-SQHPRF7YgZoHRjIeHa0y-2CSg2zWxe6MCE1WPENWfqB3ojT0XrGBwyKYKikkWR2_oKFV45lvPtebkyvJQQVNATFy4XlFgi4UQJI3PLqB_s4rzuM3MhLgdephEk0YP0aBLgx2",
     },
     {
-      id:4,
+      id: 4,
       name: "The Alpine Shell",
       price: 289.0,
       description:
@@ -77,25 +78,25 @@ export default function ProductPage() {
         {/* LEFT: Image Gallery */}
         <div>
           <img
-            src={selectedProduct.src}
             alt={selectedProduct.name}
             className="rounded-2xl shadow-md object-cover w-full h-[600px]"
+            src={selectedProduct.src}
           />
           <div className="flex gap-3 mt-4 overflow-x-auto">
             {productVariants.map((variant) => (
               <div
                 key={variant.id}
-                onClick={() => setSelectedProduct(variant)}
                 className={`cursor-pointer rounded-xl border-2 p-1 transition ${
                   selectedProduct.id === variant.id
                     ? "border-blue-600 shadow-md"
                     : "border-gray-200 dark:border-gray-700"
                 }`}
+                onClick={() => setSelectedProduct(variant)}
               >
                 <img
-                  src={variant.src}
                   alt={variant.name}
                   className="w-20 h-20 object-cover rounded-lg"
+                  src={variant.src}
                 />
               </div>
             ))}
@@ -122,8 +123,8 @@ export default function ProductPage() {
                 <FaStar className="text-gray-300" />
               </div>
               <a
-                href="#reviews"
                 className="text-sm font-medium text-gray-600 dark:text-gray-400 hover:underline"
+                href="#reviews"
               >
                 (121 Reviews)
               </a>
@@ -147,13 +148,13 @@ export default function ProductPage() {
                 {colors.map((c) => (
                   <button
                     key={c.name}
-                    onClick={() => setSelectedColor(c.name)}
                     className={`w-8 h-8 rounded-full border-2 ${
                       selectedColor === c.name
                         ? "ring-2 ring-offset-2 ring-gray-900 dark:ring-white"
                         : "border-transparent"
                     } ${c.value}`}
                     title={c.name}
+                    onClick={() => setSelectedColor(c.name)}
                   />
                 ))}
               </div>
@@ -166,8 +167,8 @@ export default function ProductPage() {
                   Size
                 </h3>
                 <a
-                  href="#"
                   className="text-sm text-blue-600 dark:text-blue-400 hover:underline font-medium"
+                  href="#"
                 >
                   Size guide
                 </a>
@@ -176,12 +177,12 @@ export default function ProductPage() {
                 {sizes.map((size) => (
                   <button
                     key={size}
-                    onClick={() => setSelectedSize(size)}
                     className={`flex items-center justify-center py-2 px-4 rounded-lg text-sm font-medium border ${
                       selectedSize === size
                         ? "bg-gray-900 dark:bg-white text-white dark:text-gray-900"
                         : "border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
                     }`}
+                    onClick={() => setSelectedSize(size)}
                   >
                     {size}
                   </button>
@@ -193,23 +194,24 @@ export default function ProductPage() {
             <div className="mt-8 flex gap-4">
               <div className="flex items-center border border-gray-300 dark:border-gray-700 rounded-lg">
                 <button
-                  onClick={() => setQuantity(Math.max(1, quantity - 1))}
                   className="px-3 py-2 text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors"
+                  onClick={() => setQuantity(Math.max(1, quantity - 1))}
                 >
                   −
                 </button>
                 <span className="px-4 font-semibold">{quantity}</span>
                 <button
-                  onClick={() => setQuantity(quantity + 1)}
                   className="px-3 py-2 text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors"
+                  onClick={() => setQuantity(quantity + 1)}
                 >
                   +
                 </button>
               </div>
               <Button
-                color="primary"
+                as={Link}
                 className="flex-1 py-3 px-6 bg-black dark:bg-white text-white dark:text-black rounded-lg text-base font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors"
-                as={Link} to={"/cartpage"}
+                color="primary"
+                to={"/cartpage"}
               >
                 Add to Cart
               </Button>

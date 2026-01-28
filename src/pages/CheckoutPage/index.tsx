@@ -1,7 +1,10 @@
-import { Input, Select, SelectItem, Button, Divider } from "@heroui/react";
+import { Input } from "@heroui/input";
+import { Select, SelectItem } from "@heroui/select";
+import { Button } from "@heroui/button";
+import { Divider } from "@heroui/divider";
 import { Link, useNavigate } from "react-router-dom";
 import { FiArrowLeft, FiCreditCard, FiShield, FiLock } from "react-icons/fi";
-import  { useState } from "react";
+import { useState } from "react";
 import { FiUsers } from "react-icons/fi";
 
 type Country = {
@@ -10,7 +13,9 @@ type Country = {
 };
 
 export default function CheckoutPage() {
-  const [step, setStep] = useState<"shipping" | "payment" | "review">("shipping");
+  const [step, setStep] = useState<"shipping" | "payment" | "review">(
+    "shipping",
+  );
 
   const navigate = useNavigate();
 
@@ -19,7 +24,7 @@ export default function CheckoutPage() {
       id: 1,
       name: "Aperture Pro Headphones",
       qty: 90,
-      price: 099,
+      price: 99,
       image:
         "https://lh3.googleusercontent.com/aida-public/AB6AXuBG53mO7HBpmZIL5tKvNtH9WjZEEQJcIWV1M4QBWod5ze8FT4Use498AwRhpXcbc1CDAZzdJEFq6TMXYQaBPNWj6SuPzx4W6vbwZUiVzTnpu4y5hUVHGt9RABHgqaOL5RJunMlrp4PEb-XdoB-Yu4TP6k0wcJlR5YRNCNwWfHojjtIUuiuOJrXVBRmZlAOjdzhay8JNpz5RcNWqySdMo7BaVI2s-ojcJdRbNSJwZI6HKfP9AqXoqFg01RRcvvfxjlv4Ze1bvN4_7lfR",
     },
@@ -50,8 +55,7 @@ export default function CheckoutPage() {
       <header className="border-b border-gray-200 dark:border-gray-800 bg-white dark:bg-background-dark">
         <div className="max-w-7xl mx-auto flex items-center justify-between h-16 px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 text-gray-900 dark:text-white">
-            <div className="w-6 h-6">
-            </div>
+            <div className="w-6 h-6" />
             <h1 className="text-xl font-bold">Aperture</h1>
           </div>
         </div>
@@ -97,18 +101,18 @@ export default function CheckoutPage() {
                   <p className="text-sm text-gray-600 dark:text-gray-400">
                     Already have an account?{" "}
                     <a
-                      href="#"
                       className="text-primary font-medium hover:underline"
+                      href="#"
                     >
                       Log in
                     </a>
                   </p>
                 </div>
                 <Input
-                  label="Email Address"
-                  type="email"
-                  placeholder="Enter your email"
                   className="w-full"
+                  label="Email Address"
+                  placeholder="Enter your email"
+                  type="email"
                 />
               </section>
 
@@ -116,25 +120,25 @@ export default function CheckoutPage() {
                 <h3 className="text-lg font-bold mb-4">Shipping Address</h3>
                 <div className="grid grid-cols-1 sm:grid-cols-6 gap-4">
                   <Select<Country>
-                    label="Country/Region"
                     className="sm:col-span-6"
                     items={countries}
+                    label="Country/Region"
                   >
                     {(country) => (
                       <SelectItem key={country.key}>{country.label}</SelectItem>
                     )}
                   </Select>
 
-                  <Input label="First Name" className="sm:col-span-3" />
-                  <Input label="Last Name" className="sm:col-span-3" />
-                  <Input label="Address" className="sm:col-span-6" />
+                  <Input className="sm:col-span-3" label="First Name" />
+                  <Input className="sm:col-span-3" label="Last Name" />
+                  <Input className="sm:col-span-6" label="Address" />
                   <Input
-                    label="Apartment, suite, etc. (optional)"
                     className="sm:col-span-6"
+                    label="Apartment, suite, etc. (optional)"
                   />
-                  <Input label="City" className="sm:col-span-2" />
-                  <Input label="State" className="sm:col-span-2" />
-                  <Input label="ZIP Code" className="sm:col-span-2" />
+                  <Input className="sm:col-span-2" label="City" />
+                  <Input className="sm:col-span-2" label="State" />
+                  <Input className="sm:col-span-2" label="ZIP Code" />
                 </div>
               </section>
 
@@ -142,14 +146,14 @@ export default function CheckoutPage() {
 
               <div className="flex flex-col-reverse sm:flex-row items-center justify-between gap-4">
                 <Link
-                  to="/cartpage"
                   className="flex items-center gap-1 text-sm text-primary font-medium hover:underline"
+                  to="/cartpage"
                 >
                   <FiArrowLeft /> Return to cart
                 </Link>
                 <Button
-                  color="primary"
                   className="w-full sm:w-auto bg-gray-900 text-white dark:bg-gray-100 dark:text-gray-900"
+                  color="primary"
                   onPress={() => setStep("payment")}
                 >
                   Continue to Payment
@@ -188,15 +192,15 @@ export default function CheckoutPage() {
 
               <div className="flex flex-col-reverse sm:flex-row items-center justify-between gap-4">
                 <Button
+                  className="text-primary"
                   variant="flat"
                   onPress={() => setStep("shipping")}
-                  className="text-primary"
                 >
                   Back to Shipping
                 </Button>
                 <Button
-                  color="primary"
                   className="w-full sm:w-auto bg-gray-900 text-white dark:bg-gray-100 dark:text-gray-900"
+                  color="primary"
                   onPress={() => setStep("review")}
                 >
                   Review Order
@@ -222,9 +226,7 @@ export default function CheckoutPage() {
                   >
                     <div>
                       <p className="font-semibold">{item.name}</p>
-                      <p className="text-sm text-gray-500">
-                        Qty: {item.qty}
-                      </p>
+                      <p className="text-sm text-gray-500">Qty: {item.qty}</p>
                     </div>
                     <p className="font-semibold">${item.price.toFixed(2)}</p>
                   </div>
@@ -241,10 +243,10 @@ export default function CheckoutPage() {
               <Divider className="my-6" />
 
               <Button
-                color="primary"
                 fullWidth
                 className="bg-green-600 hover:bg-green-700 text-white"
-                onPress={()=> navigate("/paymentsuccesspage")}
+                color="primary"
+                onPress={() => navigate("/paymentsuccesspage")}
               >
                 <FiLock className="mr-2" /> Confirm & Pay
               </Button>
@@ -263,9 +265,9 @@ export default function CheckoutPage() {
                 className="flex items-center gap-4 border-b border-gray-200 dark:border-gray-700 pb-4"
               >
                 <img
-                  src={item.image}
                   alt={item.name}
                   className="w-20 h-20 rounded-lg object-cover"
+                  src={item.image}
                 />
                 <div className="flex-grow">
                   <p className="font-semibold">{item.name}</p>

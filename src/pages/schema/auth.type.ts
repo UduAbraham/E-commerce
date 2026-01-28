@@ -1,6 +1,4 @@
-
-
-export type LoginPayLoad ={
-    username:string;
-    password: string;
-}
+export type LoginPayLoad = {
+  username: string;
+  password: string;
+};
