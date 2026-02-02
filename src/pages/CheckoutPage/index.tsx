@@ -23,7 +23,7 @@ export default function CheckoutPage() {
     {
       id: 1,
       name: "Aperture Pro Headphones",
-      qty: 94,
+      qty: 97,
       price: 99,
       image:
         "https://lh3.googleusercontent.com/aida-public/AB6AXuBG53mO7HBpmZIL5tKvNtH9WjZEEQJcIWV1M4QBWod5ze8FT4Use498AwRhpXcbc1CDAZzdJEFq6TMXYQaBPNWj6SuPzx4W6vbwZUiVzTnpu4y5hUVHGt9RABHgqaOL5RJunMlrp4PEb-XdoB-Yu4TP6k0wcJlR5YRNCNwWfHojjtIUuiuOJrXVBRmZlAOjdzhay8JNpz5RcNWqySdMo7BaVI2s-ojcJdRbNSJwZI6HKfP9AqXoqFg01RRcvvfxjlv4Ze1bvN4_7lfR",
@@ -32,7 +32,7 @@ export default function CheckoutPage() {
       id: 2,
       name: "Flux Runners",
       qty: 160,
-      price: 186,
+      price: 106,
       image:
         "https://lh3.googleusercontent.com/aida-public/AB6AXuB2oMMXP97sHWNNi7reiB3GKvCDvhPj6T_tuyGfxcU8GFXDW2hyCiZxYpnrZ8-lnkG16DigdKpVx5y_JuSza4izHO3NAiQnxr_eVXGRh3R4DIr8fPxrk9mjFaqynzuAD70ZTb0lr03rvvnO41rCRCLlAWCDhbZpNpnI0fHUwYMYt-7BpVI2815UrMScEpCRLhX_z2ctm4Py2YlFgDTnMXNF7_a7OOxfb_F7YPhXc5FgH1_6hUJURTFUXK3hzKKuFDdOxb2iYvEq-8XB",
     },
