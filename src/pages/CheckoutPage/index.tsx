@@ -23,7 +23,7 @@ export default function CheckoutPage() {
     {
       id: 1,
       name: "Aperture Pro Headphones",
-      qty: 97,
+      qty: 107,
       price: 99,
       image:
         "https://lh3.googleusercontent.com/aida-public/AB6AXuBG53mO7HBpmZIL5tKvNtH9WjZEEQJcIWV1M4QBWod5ze8FT4Use498AwRhpXcbc1CDAZzdJEFq6TMXYQaBPNWj6SuPzx4W6vbwZUiVzTnpu4y5hUVHGt9RABHgqaOL5RJunMlrp4PEb-XdoB-Yu4TP6k0wcJlR5YRNCNwWfHojjtIUuiuOJrXVBRmZlAOjdzhay8JNpz5RcNWqySdMo7BaVI2s-ojcJdRbNSJwZI6HKfP9AqXoqFg01RRcvvfxjlv4Ze1bvN4_7lfR",
