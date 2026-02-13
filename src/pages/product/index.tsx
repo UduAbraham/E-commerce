@@ -30,14 +30,14 @@ const products: Product[] = [
   {
     id: 4,
     name: "Italians Leather Loafers",
-    price: "$400.00",
+    price: "$4890.00",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuC9qSOF6iJlqDXw9lS6BnXzCyhYexCsJIWKGA7RomsjWTikJwtxGAYbn9lgaNUFni-kYTzfIAQWMfghkbQlCnvn0dWEftl5fv_0P_O0fpts2BKE_EV_DClkooHl-NbrezCNaRjAYbw4VSM1pzs5-jP_Vi3JiVAiDIMoqxq5zu4UNu8BWrvZ9b9a096IT67VeNKsru6yPJ1VefEx6js70s8Dq_H_xtmsVDeRnWn4Cuun-JjDQ9Rzn7_Zd2c7VSrZoMXNFQTvETWtSgFJ",
   },
   {
     id: 5,
     name: "Minimalist Watch",
-    price: "$180",
+    price: "$1540",
     image:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuDukZTrOuQ4QZNrsrTqKUO2evOUB9wJacCNcR2wkXYm2lKFFriNP_OyrupdCcg-UIikOYys10ZOPN53xTGo5v_tKAEgN3M_3myZiMvCvlzJJcs9-soAllh0jsk_Rgk1DecvQWix3FzXOYKhRGx6eefeqY7qBTOKsJOcjUHzum_ZLvTmrQ8Ud96G5C6-c-6RFzdlo3M2c62HcrkFjGsUWedvoYyGyhmmDA2ebEc4R69x0eV0AP8F3x-ZRwz75TRK1JNs3TeSCq_20jr5",
   },
